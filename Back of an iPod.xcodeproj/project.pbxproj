@@ -14,6 +14,8 @@
 		E0576EE229D681540040230C /* Back_of_an_iPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0576EE129D681540040230C /* Back_of_an_iPodTests.swift */; };
 		E0576EEC29D681540040230C /* Back_of_an_iPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0576EEB29D681540040230C /* Back_of_an_iPodUITests.swift */; };
 		E0576EEE29D681540040230C /* Back_of_an_iPodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0576EED29D681540040230C /* Back_of_an_iPodUITestsLaunchTests.swift */; };
+		E0576EFC29DA4AD10040230C /* VideoDataOutputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0576EFB29DA4AD10040230C /* VideoDataOutputDelegate.swift */; };
+		E0576EFE29DA4B140040230C /* CIImageLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0576EFD29DA4B140040230C /* CIImageLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		E0576EE729D681540040230C /* Back of an iPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Back of an iPodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0576EEB29D681540040230C /* Back_of_an_iPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Back_of_an_iPodUITests.swift; sourceTree = "<group>"; };
 		E0576EED29D681540040230C /* Back_of_an_iPodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Back_of_an_iPodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0576EFA29D685C20040230C /* Back-of-an-iPod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Back-of-an-iPod-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E0576EFB29DA4AD10040230C /* VideoDataOutputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDataOutputDelegate.swift; sourceTree = "<group>"; };
+		E0576EFD29DA4B140040230C /* CIImageLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImageLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +99,11 @@
 		E0576ECF29D6814F0040230C /* Back of an iPod */ = {
 			isa = PBXGroup;
 			children = (
+				E0576EFA29D685C20040230C /* Back-of-an-iPod-Info.plist */,
 				E0576ED029D6814F0040230C /* Back_of_an_iPodApp.swift */,
 				E0576ED229D6814F0040230C /* ContentView.swift */,
+				E0576EFB29DA4AD10040230C /* VideoDataOutputDelegate.swift */,
+				E0576EFD29DA4B140040230C /* CIImageLayer.swift */,
 				E0576ED429D681540040230C /* Assets.xcassets */,
 				E0576ED629D681540040230C /* Preview Content */,
 			);
@@ -257,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0576EFC29DA4AD10040230C /* VideoDataOutputDelegate.swift in Sources */,
+				E0576EFE29DA4B140040230C /* CIImageLayer.swift in Sources */,
 				E0576ED329D6814F0040230C /* ContentView.swift in Sources */,
 				E0576ED129D6814F0040230C /* Back_of_an_iPodApp.swift in Sources */,
 			);
@@ -420,6 +430,8 @@
 				DEVELOPMENT_TEAM = ZSH4D499WW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Back-of-an-iPod-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera access...NOW!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +461,8 @@
 				DEVELOPMENT_TEAM = ZSH4D499WW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Back-of-an-iPod-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera access...NOW!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
