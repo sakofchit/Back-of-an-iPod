@@ -15,7 +15,7 @@ The camera distortion effect is done using Apple's built-in Core Image library, 
 
 # Credit
 
-These were a couple cool ones I saw:
+These were a couple cool shiny demos I saw:
 
 * [Shiny Button](https://twitter.com/alexwidua/status/1630998774247030786?s=20)
 * [Discs](https://twitter.com/itsdpark/status/1625245210774056962?s=20)
